@@ -370,7 +370,6 @@ class _InAppWebViewState extends State<InAppWebView> {
             ..addOnPlatformViewCreatedListener((id) => _onPlatformViewCreated(id))
             ..create();
         },
-        creationParamsCodec: const StandardMessageCodec(),
       );
 
     } else if (defaultTargetPlatform == TargetPlatform.iOS) {
